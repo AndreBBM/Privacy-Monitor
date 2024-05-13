@@ -1,7 +1,5 @@
 # Privacy-Monitor
 
-# Privacy Monitor
-
 Privacy Monitor é uma extensão do navegador Firefox projetada para ajudar os usuários a entender e monitorar questões de privacidade enquanto navegam na web. Ela detecta e apresenta informações sobre conexões de terceiros, armazenamento de dados locais, cookies (incluindo supercookies), tentativas de fingerprinting de canvas, e potenciais ameaças de sequestro de navegador.
 
 ## Funcionalidades
@@ -26,21 +24,11 @@ Antes de instalar a extensão, certifique-se de que você tem o Firefox instalad
 
 ## Como Usar
 
-Após instalar a extensão, um ícone aparecerá na barra de ferramentas do Firefox. Clique neste ícone para abrir o popup que exibe as informações monitoradas:
+Após instalar a extensão, um ícone aparecerá na barra de ferramentas do Firefox. Após carregar uma página web, clique no ícone da extensão para abrir o popup que exibe as informações monitoradas:
 
-- A aba **Third-Party Domains** lista todos os domínios de terceiros acessados.
-- A aba **Local Storage** mostra todos os dados armazenados pelo site no navegador.
-- A aba **Cookies** exibe os cookies detectados e suas propriedades.
-- A aba **Canvas Fingerprint** informa se houve tentativas de uso de fingerprinting de canvas.
+- **Third-Party Domains** lista todos os domínios de terceiros acessados.
+- **Local Storage** mostra todos os dados armazenados pelo site no navegador.
+- **Cookies** exibe os cookies detectados e suas propriedades.
+- **Canvas Fingerprint** informa se houve tentativas de uso de fingerprinting de canvas.
+- **sessionStorage** mostra os dados armazenados na sessionStorage.
 
-## Contribuindo
-
-Contribuições são sempre bem-vindas! Seja adicionando novas funcionalidades, corrigindo bugs, ou melhorando a documentação, sinta-se à vontade para criar um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo `LICENSE` para detalhes.
-
-## Contato
-
-Para mais informações, por favor, entre em contato através de [seu-email@example.com].
