@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Privacy Monitor",
+  "version": "1.0",
+  "description": "Monitors privacy issues on web pages.",
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "cookies",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon.png"
+    }
+  }
+}
